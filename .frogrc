@@ -1,5 +1,5 @@
 # Required: Should NOT end in trailing slash.
-scheme/host = http://www.example.com
+scheme/host = http://blog.racket-lang.org
 
 # A path prepended to URIs, including those specified here in .frogrc
 # such as `permalink` and `posts-index-uri`. Defaults to `/`. This is
@@ -7,11 +7,11 @@ scheme/host = http://www.example.com
 uri-prefix = /
 
 # The title of the blog. Used when generating feeds.
-title = My Awesome Blog
+title = Racket Blog
 
 # The author. Used when generating feeds, and provided to
 # `page-template.html` as the template variable `@author`.
-author = The Unknown Author
+author = PLT Design Inc.
 
 # What editor to launch with --edit. $EDITOR means to use $EDITOR from
 # the environment
@@ -30,7 +30,7 @@ show-tag-counts? = true
 # Pattern for blog post permalinks
 # Optional: Default is "/{year}/{month}/{title}.html".
 # Here's an example of the Jekyll "pretty" style:
-permalink = /blog/{year}/{month}/{day}/{title}/index.html
+permalink = /{year}/{month}/{title}.html
 # There is also {filename}, which is the `this-part` portion of
 # your post's YYYY-MM-DD-this-part.md file name. This is in case
 # you don't like Frog's encoding of your post title and want to
